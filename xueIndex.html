@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>兰州大学-昆仑堂</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/demoxuejing.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link href="css/css.css" type="text/css" rel="stylesheet"/>
+
+    <!--点击放大效果的js-->
+    <script src="js/jqueryLibrary.min.js"></script>
+    <script src="js/jquery.imgbox.pack.js"></script>
+    <script>
+        $(function () {
+            $(".example1").imgbox();
+            $(".example2").imgbox({
+                'speedIn': 0,
+                'speedOut': 0,
+                'alignment': 'center',
+                'overlayShow': true,
+                'allowMultiple': false
+            });
+        });
+    </script>
+</head>
+<body>
+<!--<a class="example2" href="images/d3.jpg"><img src="images/x3.jpg" /></a>-->
+
+
+<div class="htmleaf-container">
+    <header class="htmleaf-header">
+        <h1>欢迎来到兰州大学<span>风雪载兰大</span></h1>
+        <!--<div class="htmleaf-links">-->
+        <!--<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> jQuery之家</span></a>-->
+        <!--<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/css3/css3donghua/201506051976.html" title="返回下载页" target="_blank"><span> 返回下载页</span></a>-->
+        <!--</div>-->
+    </header>
+    <div class="container">
+        <div class="elem first" id="card1">
+            <!--<img src="img/天山堂.jpg" />-->
+            <a class="example2" href="img/xue/1.jpg" id="pic1">
+                <img src="img/xue/1.jpg"/>
+            </a>
+        </div>
+
+
+        <div class="elem second" id="card2">
+            <a class="example2" href="img/xue/2.jpg" id="pic2">
+                <img src="img/xue/2.jpg"/>
+            </a>
+            <div class="partialBorder">
+                <div class="leftTop"></div>
+                <div class="rightTop"></div>
+                <div class="leftBot"></div>
+                <div class="rightBot"></div>
+            </div>
+        </div>
+
+
+        <div class="elem thrird" id="card3">
+            <a class="example2" href="img/xue/3.jpg" id="pic3">
+                <img src="img/xue/3.jpg"/>
+            </a>
+            <div class="line topToBot"></div>
+            <div class="line botToTop"></div>
+        </div>
+
+        <div class="elem fourth" id="card4">
+            <a class="example2" href="img/xue/4.jpg" id="pic4">
+                <img src="img/xue/4.jpg"/>
+            </a>
+            <div class="lineCont">
+                <div class="line top"></div>
+                <div class="line right"></div>
+                <div class="line bottom"></div>
+                <div class="line left"></div>
+            </div>
+        </div>
+
+        <div class="elem fifth" id="card5">
+            <a class="example2" href="img/xue/5.jpg" id="pic5">
+                <img src="img/xue/5.jpg"/>
+            </a>
+            <span class="left"></span>
+            <span class="right"></span>
+        </div>
+        <div class="elem sixth" id="card6">
+            <a class="example2" href="img/xue/6.jpg" id="pic6">
+                <img src="img/xue/6.jpg"/>
+            </a>
+            <div class="reveal">
+                <span></span>
+            </div>
+        </div>
+        <!--<div class="elem seventh" id="card7">-->
+            <!--<a class="example2" href="img/xue/7.jpg" id="pic7">-->
+                <!--<img src="img/xue/7.jpg"/>-->
+            <!--</a>-->
+            <!--<span class="bird"></span>-->
+        <!--</div>-->
+        <!--<div class="elem eighth" id="card8">-->
+            <!--<a class="example2" href="img/xue/8.jpg" id="pic8">-->
+                <!--<img src="img/xue/8.jpg"/>-->
+            <!--</a>-->
+            <!--<div class="reveal">-->
+                <!--<span></span>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="elem ninth" id="card9">-->
+            <!--<a class="example2" href="img/xue/9.jpg" id="pic9">-->
+                <!--<img src="img/xue/9.jpg"/>-->
+            <!--</a>-->
+            <!--<span class="umad">倒立天山堂</span>-->
+        <!--</div>-->
+    </div>
+    <div class="related">
+        <br>
+        <!--<br>-->
+
+    </div>
+</div>
+</body>
+<script>
+
+    $("#card1").click(function () {
+        $("#pic1").click();
+    });
+    $("#card2").click(function () {
+        $("#pic2").click();
+    });
+    $("#card3").click(function () {
+        $("#pic3").click();
+    });
+    $("#card4").click(function () {
+        $("#pic4").click();
+    });
+    $("#card5").click(function () {
+        $("#pic5").click();
+    });
+    $("#card6").click(function () {
+        $("#pic6").click();
+    });
+    $("#card7").click(function () {
+        $("#pic7").click();
+    });
+    $("#card8").click(function () {
+        $("#pic8").click();
+    });
+    $("#card9").click(function () {
+        $("#pic9").click();
+    });
+</script>
+</html>
