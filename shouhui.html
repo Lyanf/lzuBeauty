@@ -26,6 +26,7 @@
             });
         });
     </script>
+
 </head>
 <body>
 <!--<a class="example2" href="images/d3.jpg"><img src="images/x3.jpg" /></a>-->
@@ -33,7 +34,18 @@
 
 <div class="htmleaf-container">
     <header class="htmleaf-header">
+        <hr>
+        <img class="home" src="img/xchv.png"
+             style="position: absolute;cursor: pointer;left: 200px;width: auto;height: 100px;top:30px;">
+
         <h1>欢迎来到兰州大学<span>手绘兰大</span></h1>
+        <br>
+        <hr>
+        <script>
+            $(".home").click(function () {
+                window.open("../index.html")
+            })
+        </script>
         <!--<div class="htmleaf-links">-->
         <!--<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> jQuery之家</span></a>-->
         <!--<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/css3/css3donghua/201506051976.html" title="返回下载页" target="_blank"><span> 返回下载页</span></a>-->
@@ -85,15 +97,15 @@
             <a class="example2" href="img/shouhui/5.jpg" id="pic5">
                 <img src="img/shouhui/5.jpg"/>
             </a>
-            <span class="left">天山堂</span>
-            <span class="right">正景</span>
+            <span class="left">贺兰堂</span>
+            <span class="right">侧景</span>
         </div>
         <div class="elem sixth" id="card6">
             <a class="example2" href="img/shouhui/6.jpg" id="pic6">
                 <img src="img/shouhui/6.jpg"/>
             </a>
             <div class="reveal">
-                <span>午后</span>
+                <span></span>
             </div>
         </div>
         <div class="elem seventh" id="card7">
@@ -114,7 +126,7 @@
             <a class="example2" href="img/shouhui/9.jpg" id="pic9">
                 <img src="img/shouhui/9.jpg"/>
             </a>
-            <span class="umad">倒立天山堂</span>
+            <span class="umad">水中校史馆</span>
         </div>
     </div>
     <div class="related">
